@@ -1,0 +1,366 @@
+.construction{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.slider{
+width: 350px;
+height: 400px;
+background-image: url(image/cover.jpg);
+
+}
+
+
+.top_bar{
+  margin-left: -8px;
+  clear: both;
+  background-color: black;
+  height: 50px;
+  opacity: .8;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-family:fantasy;
+}
+
+.nav_bar{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  float: left;
+  opacity:.8;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul li{
+  margin-left: 1px;
+  margin-bottom: 2px;
+  background-color: black;
+  width: 167px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+ul li a{
+  display:block ;
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover{
+  background-color:darkgrey;
+  border: .5px solid white;
+  transition: .3s;
+}
+
+.main{
+  clear: both;
+  height: 550px;
+}
+
+#btn-menu{
+  display: none;
+}
+
+label{
+zoom:200%;
+color: white;
+background-color: black;
+opacity: .8;
+margin-top: 3px;
+padding: 2px;
+display: none;
+border-radius: 4px;
+}
+body{
+  height: 100%;
+  width:100%;
+  background-color: black;
+  background-image: url(image/test1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container{
+  clear: both;
+
+}
+
+.container2{
+  float: right;
+  margin-left: 0px;
+  margin-right: 35px;
+}
+
+.videos{
+  float: left;
+  width: 800px;
+}
+
+.player{
+  border-radius: 15px;
+}
+.Events{
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  opacity:.8;
+  width:100%;
+  max-width: 200px;
+  min-width: 50px;
+  margin-bottom: 3px;
+  border-radius: 7px;
+}
+
+.menu{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+span{
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  display: block;
+}
+
+.text_Social{
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+.social{
+  color: white;
+  text-align: center;
+  background-color: black;
+  width:180px;
+  margin-bottom: 3px;
+  margin-top: -13px;
+  opacity: .8;
+  border-radius: 7px;
+}
+
+section{
+  color: white;
+  text-align: center;
+  padding: 3px;
+  margin-right: 10px;
+  float: left;
+  background-color: black;
+  width:auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+  opacity: .8;
+  border-radius: 15px;
+}
+
+.wrapper{
+  clear: both;
+  align-items: center;
+  background-color: black;
+  opacity: .8;
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+input{
+  margin-bottom: 7px;
+}
+
+.wrapper input{
+  align:center;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.contact_title{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+textarea{
+  margin-left: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+.form_text{
+  background-color: white;
+}
+
+.form_submit  {
+  background-color: gray;
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  margin-left: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+footer{
+  clear: both;
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+  background-color: black;
+  opacity:.8;
+  font-size: 16px;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin-left:-5px;
+  line-height: auto;
+  text-align: center;
+}
+
+.dev{
+  text-decoration: none;
+  color: white;
+}
+.facebook{
+  width: 25px;
+  height: 25px;
+}
+
+.youtube{
+  width: 25px;
+  height: 25px;
+}
+.spotify{
+  width: 25px;
+  height: 25px;
+}
+
+
+@media(max-width:700px) {
+  body{
+    background-image: url(image/test1.jpg);
+    background-size:cover;
+    background-color: black;
+  }
+ .nav_bar ul{
+  flex-direction: column;
+  margin-left: -130%;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: -120px;
+  }
+
+label{
+  width: 15px;
+  display:flex;
+}
+label:hover{
+  background-color: darkgrey;
+  border: .5px solid white;
+
+}
+
+ul li{
+  margin-left: 1px;
+  margin-bottom: 2px;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.container2{
+width: 90%;
+background-color: black;
+opacity: .8;
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+height: 100px;
+justify-content: center;
+border-radius: 15px;
+}
+
+.videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.player{
+  margin-bottom:10px;
+  border-radius: 15px;
+}
+.text_Social{
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top:   10px;
+}
+
+.social{
+  color: white;
+  text-align: center;
+  background-color: black;
+  width:180px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  opacity: .8;
+  border-radius: 15px;
+
+}
+footer{
+  display: flex;
+  flex-grow:start-t0-end;
+  justify-content:center;
+  background-color: black;
+  opacity:.8;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  margin-left: -10px;
+  height: auto;
+  line-height: auto;
+  text-align: center;
+}
+
+textarea{
+  width: 85%;
+}
+.wrapper{
+  width: 90%;
+}
+.wrapper input{
+  width: 85%;
+}
+
+}
+#btn-menu:checked ~ .nav_bar ul{
+margin-left: 0px;
+margin-bottom: 10px;
+transition:.5s;
+}
+/* #btn-menu:checked ~ .main{
+margin-top: 120px;
+transition:.5s; */
+}

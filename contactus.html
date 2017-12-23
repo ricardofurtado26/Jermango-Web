@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us.</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/icon.ico">
+</head>
+<body>
+  <div>
+    <div class="top_bar">
+      <div class="text_top_style">Jermango Dreaming
+    </div>
+    </div>
+    <header>
+      <input type="checkbox" id="btn-menu">
+      <label for="btn-menu"> &#9776;</label>
+          <nav  class="nav_bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="wrapper">
+    <div class="contact_title">
+      <p>contact Us.</p>
+    </div>
+    <form method="post" name="contact_form" onsubmit="return val()">
+  <input class="form_name" name="form_name" type="text" placeholder="Type your name here"><br>
+  <input class="form_email" name="form_email" type="email" placeholder="Type your E-mail here"><br>
+  <input class="form_number" name="form_number" type="number" placeholder="Type your phone here"><br>
+  <textarea class="form_text" name="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+    <input width="150" type="submit" name="submit" value="submit" onsubmit="return mail()">
+  </form>
+  <script type="text/javascript">
+  function val (){
+    var x = document.forms['contact_form']['form_name'].value;
+    var y = document.forms['contact_form']['form_email'].value;
+    var z = document.forms['contact_form']['message'].value;
+    if (x=="") {
+      alert("Name must be filled out.");
+      return false;
+    }
+    if (y=="") {
+      alert("E-mail must be filled out.");
+      return false;
+    }if (z=="") {
+      alert("Please Check, the field message should be filled out.");
+      return false;
+    }
+    else {
+      alert("E-mail Sent . Thanks for contact us.")
+    };
+  }
+
+  </script>
+  </div>
+</body>
+<footer>
+  <div class="text_foot">
+  Jermango Dreaming &copy; 2017 | Website made by <a class="dev" target="_blank" href="https://www.linkedin.com/in/ricardo-furtado-48a9996b/">Ricardo Furtado</a>
+</div>
+</footer>
+</html>
